@@ -19,7 +19,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm i npm && gulp build"
   },
   "license": "ISC",
   "devDependencies": {
@@ -31,6 +31,9 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "np": "^5.0.3"
+    "build": "^0.1.4",
+    "np": "^5.0.3",
+    "npm": "^6.11.3",
+    "run": "^1.4.0"
   }
 }
