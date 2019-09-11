@@ -29,5 +29,8 @@
     "gulp-concat-css": "3.1.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "np": "^5.0.3"
   }
 }
