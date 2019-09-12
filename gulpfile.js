@@ -2,7 +2,8 @@ const gulp = require('gulp'),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
     concatCss = require('gulp-concat-css'),
-    autoprefixer = require('gulp-autoprefixer')
+    autoprefixer = require('gulp-autoprefixer');
+    
 var path = {
     build: { //Тут мы укажем куда складывать готовые после сборки файлы
         css: './dist/',
