@@ -1,0 +1,32 @@
+.Input {
+    touch-action: manipulation;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+
+    &__box {
+        position: relative;
+        display: block;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    &__control {
+        font: inherit;
+        line-height: inherit;
+        position: relative;
+        display: inline-block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: none;
+        -webkit-appearance: none;
+    }
+}
