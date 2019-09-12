@@ -1,0 +1,9 @@
+.btn-group{
+    display: flex;
+    .btn{
+        margin-left: 24px;
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
