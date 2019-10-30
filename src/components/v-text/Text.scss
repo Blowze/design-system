@@ -1,0 +1,55 @@
+@import '@/settings/settings.scss';
+
+.text {
+    font-family: $font-project;
+    line-height: $line-height-text-m;
+}
+
+
+/* line-height */
+@import './_line-height/text_line-height_l.scss';
+@import './_line-height/text_line-height_m.scss';
+@import './_line-height/text_line-height_s.scss';
+@import './_line-height/text_line-height_xs.scss';
+
+/* Size */
+@import './_size/text_size_2xl.scss';
+@import './_size/text_size_3xl.scss';
+@import './_size/text_size_4xl.scss';
+@import './_size/text_size_l.scss';
+@import './_size/text_size_m.scss';
+@import './_size/text_size_s.scss';
+@import './_size/text_size_xl.scss';
+@import './_size/text_size_xs.scss';
+
+/* Align */
+@import './_align/text_align_center.scss';
+@import './_align/text_align_left.scss';
+@import './_align/text_align_right.scss';
+
+/* Decoration */
+@import './_decoration/text_decoration_underline.scss';
+
+/* Display */
+@import './_display/text_display_block.scss';
+@import './_display/text_display_inline-block.scss';
+
+/* Style */
+@import './_style/text_style_italic.scss';
+
+/* Transform */
+@import './_transform/text_transform_uppercase.scss';
+
+/* Type */
+@import './_type/text_type_h1.scss';
+@import './_type/text_type_h2.scss';
+@import './_type/text_type_h3.scss';
+@import './_type/text_type_p.scss';
+
+/* Weight */
+@import './_weight/text_weight_black.scss';
+@import './_weight/text_weight_bold.scss';
+@import './_weight/text_weight_light.scss';
+@import './_weight/text_weight_regular.scss';
+@import './_weight/text_weight_semibold.scss';
+@import './_weight/text_weight_thin.scss';

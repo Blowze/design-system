@@ -1,0 +1,4 @@
+.text_size_xs {
+    font-size: $size-text-xs;
+    line-height: $line-height-text-m; /* Fallback to deprecated variable */
+}
