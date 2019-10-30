@@ -1,4 +1,4 @@
-@import '../../settings/settings.scss';
+@import '../../settings/bootstrap.scss';
 
 .text {
     font-family: $font-project;
@@ -11,6 +11,11 @@
 @import './_line-height/text_line-height_m.scss';
 @import './_line-height/text_line-height_s.scss';
 @import './_line-height/text_line-height_xs.scss';
+
+/* Color */
+@import './_view/text_view_brand.scss';
+@import './_view/text_view_secondary.scss';
+@import './_view/text_view_link.scss';
 
 /* Size */
 @import './_size/text_size_2xl.scss';
