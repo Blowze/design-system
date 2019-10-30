@@ -1,24 +1,23 @@
-# desing
+# viritsa-design-system
 
-## Project setup
-```
-npm install
-```
+`viritsa-design-system` — это библиотека с открытым кодом, которая предоставляет набор готовых визуальных компонентов.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Блоки
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* [button](components/button/button.ru.md)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Поддерживаемые браузеры
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* **Desktop**
+  * Firefox 
+  * Chrome 
+  * Safari 
+  * Yandex 
+  * Opera 
+  * Internet Explorer 
+  
+## Установка 
+
+```bash
+$ npm i viritsa-design-system
+```

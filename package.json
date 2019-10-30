@@ -1,7 +1,23 @@
 {
-  "name": "desing",
-  "version": "0.1.0",
-  "private": true,
+
+  "author": "Team viritsa",
+  "name": "viritsa-design-system",
+  "version": "0.0.5",
+  "description": "Viritsa Components Library",
+  "homepage": "https://github.com/Blowze/viritsa-design-system#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blowze/viritsa-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blowze/viritsa-design-system/issues"
+  },
+  "keywords": [
+    "Viritsa",
+    "components",
+    "controls",
+    "ui"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -50,4 +66,3 @@
     "> 1%",
     "last 2 versions"
   ]
-}
