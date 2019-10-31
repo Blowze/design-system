@@ -1,5 +1,5 @@
 /* Global settings project */
-$font-project: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;       
+$font-project: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
 
 /* Text */
 $line-height-text-xs: 20px;
@@ -7,14 +7,14 @@ $line-height-text-s: 22px;
 $line-height-text-m: 24px;
 $line-height-text-l: 32px;
 
-$size-text-xs: 12px;
-$size-text-s: 14px; 
-$size-text-m: 16px;
-$size-text-l: 18px;
-$size-text-xl: 20px;
-$size-text-2xl: 24px;
-$size-text-3xl: 32px;
-$size-text-4xl: 36px;
+$size-text-xs: rem(12px);
+$size-text-s:  rem(14px); 
+$size-text-m:  rem(16px);
+$size-text-l:  rem(18px);
+$size-text-xl:  rem(20px);
+$size-text-2xl:  rem(24px);
+$size-text-3xl:  rem(32px);
+$size-text-4xl:  rem(36px);
 
 /* Color */
 $color-typo-brand: #522915 !default;
