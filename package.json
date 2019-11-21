@@ -1,29 +1,17 @@
 {
-  "author": "Team viritsa",
   "name": "viritsa-design-system",
   "version": "0.0.8",
   "description": "Viritsa Components Library",
-  "homepage": "https://github.com/Blowze/viritsa-design-system#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Blowze/viritsa-design-system.git"
   },
-  "bugs": {
-    "url": "https://github.com/Blowze/viritsa-design-system/issues"
-  },
-  "keywords": [
-    "Viritsa",
-    "components",
-    "controls",
-    "ui"
-  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "styleguide": "vue-cli-service styleguidist",
-    "styleguide:build": "vue-cli-service styleguidist:build"
+    "demo": "vue-styleguidist server",
+    "build:": "vue-styleguidist build"
   },
+  "author": "feliksov",
   "dependencies": {
     "core-js": "^3.3.2",
     "vue": "^2.6.10"
