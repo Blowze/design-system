@@ -11,7 +11,7 @@ module.exports = {
 
 	title: TITLE,
 	serverPort: PORT,
-	components: './src/components/**/index.{ts,js}',
+	components: './src/components/**/index.js',
 	version,
 	showSidebar: true ,
     pagePerSection: true,
@@ -19,9 +19,9 @@ module.exports = {
 		favicon: 'https://feliksov.ru/favicon.ico'
 	},
 	getComponentPathLine(componentPath) {
-		const name = path.basename(componentPath, '.vue')
-		const dir = path.dirname(componentPath)
-		return `import ${name} from '${dir}';`
+        const componentDirName = path.dirname(componentPath);
+        const componentSourcesFileName = componentDirName.split(path.sep).pop();
+		return `import ${componentSourcesFileName} from '${componentDirName}';`
 	  },
 	
 	styles: {
@@ -117,7 +117,6 @@ module.exports = {
 				},
 				{
 					name: 'Иконки',
-					content: 'docs/installation.md',
 					description: 'The description for the installation section'
 				},
 				{

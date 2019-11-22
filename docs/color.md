@@ -29,7 +29,7 @@
 
  Название | цвет | Значение | Переменная |
 | --- | --- | --- |
-| brand  | <span class="color" style="background: #00985f;"></span>  |$color-base-project| $color-typo-success|
+| brand  | <span class="color" style="background: #522915;"></span>  |$color-base-project| $color-typo-brand|
 | secondary  | <span class="color" style="background: #333;"></span>  |#333| $color-typo-secondary |
 | ghost  | <span class="color" style="background: #9b9b9b;"></span>  |#9b9b9b| $color-typo-ghost |
 | success  | <span class="color" style="background: #00985f;"></span>  |$color-base-success| $color-typo-success |
