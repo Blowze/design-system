@@ -1,9 +1,10 @@
-# viritsa-design-system
+# 585-design-system
 
-`viritsa-design-system` — это библиотека с открытым кодом, которая предоставляет набор готовых визуальных компонентов.
+`585-design-system` — это набор базовых компонентов определяющих визуальный образ сайта Вырица
 
 ## Установка 
 
 ```bash
-$ npm i viritsa-design-system
+$ npm i 585-design-system
 ```
+## Вопросы

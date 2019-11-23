@@ -1,11 +1,11 @@
-const path = require('path')
+const path = require('path');
 
 const {
 	version
-} = require('./package');
+} = require('./package.json');
 
 const PORT = parseInt(process.env.PORT || 8080, 10);
-const TITLE = '585 Дизайн система';
+const TITLE = 'Дизайн система 585';
 
 module.exports = {
 

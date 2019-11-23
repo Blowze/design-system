@@ -13,7 +13,7 @@
 
 .block {
     width: 100px;
-    @media screen and (max-width: $screen-s) {
+    @media screen and (max-width: $screen-sm) {
         width: 300px;
     }
 }

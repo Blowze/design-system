@@ -12,7 +12,7 @@
 align | `center` `left` `right` | выравнивание
 decoration| `underline` | Подчеркивание
 display | `block` `inline-block` `inline` | Способ отображения блока на странице
-size | `xs` `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Размер
+size | `xs` `s` `m` `l` `xl` `2xl` `3xl` `4xl` | Размер шрифта
 height | `xs` `s` `m` `l` | Межстрочное расстояние
 style | `italic` | Курсив
 transform | `uppercase` | Верхний регистр
