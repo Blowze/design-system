@@ -1,14 +1,14 @@
 {
   "name": "585-design-system",
-  "version": "0.0.9",
+  "version": "0.0.1",
   "description": "Viritsa Components Library",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yashunin/585-design-system.git"
   },
   "scripts": {
-    "build": "vue-styleguidist build",
-    "start": "vue-styleguidist server"
+    "build:docs": "vue-styleguidist build",
+    "start:docs": "vue-styleguidist server",
   },
   "author": "585",
   "dependencies": {
