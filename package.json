@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build:docs": "vue-styleguidist build",
-    "start:docs": "vue-styleguidist server",
+    "start:docs": "vue-styleguidist server"
   },
   "author": "585",
   "dependencies": {
