@@ -1,7 +1,8 @@
 {
-  "name": "585-design-system",
+  "name": "585designsystem",
   "version": "0.0.1",
   "description": "Viritsa Components Library",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yashunin/585-design-system.git"
