@@ -1,0 +1,173 @@
+{
+  "aliases": {},
+  "props": {
+    "font_default": {
+      "type": "weight",
+      "category": "font",
+      "value": "'Open Sans', sans-serif;",
+      "originalValue": "'Open Sans', sans-serif;",
+      "name": "font_default"
+    },
+    "weight_text_bold": {
+      "type": "weight",
+      "category": "font",
+      "value": "700",
+      "originalValue": "700",
+      "name": "weight_text_bold"
+    },
+    "weight_text_regular": {
+      "type": "weight",
+      "category": "font",
+      "value": "400",
+      "originalValue": "400",
+      "name": "weight_text_regular"
+    },
+    "weight_text_light": {
+      "type": "weight",
+      "category": "font",
+      "value": "300",
+      "originalValue": "300",
+      "name": "weight_text_light"
+    },
+    "weight_text_thin": {
+      "type": "weight",
+      "category": "font",
+      "value": "100",
+      "originalValue": "100",
+      "name": "weight_text_thin"
+    },
+    "line_height_text_l": {
+      "type": "number",
+      "category": "line-height",
+      "value": "32px",
+      "originalValue": "32px",
+      "name": "line_height_text_l"
+    },
+    "line_height_text_m": {
+      "type": "number",
+      "category": "line-height",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "line_height_text_m"
+    },
+    "line_height_text_s": {
+      "type": "number",
+      "category": "line-height",
+      "value": "22px",
+      "originalValue": "22px",
+      "name": "line_height_text_s"
+    },
+    "line_height_text_xs": {
+      "type": "number",
+      "category": "line-height",
+      "value": "20px",
+      "originalValue": "20px",
+      "name": "line_height_text_xs"
+    },
+    "size_text_4xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "36px",
+      "originalValue": "36px",
+      "name": "size_text_4xl"
+    },
+    "size_text_3xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "32px",
+      "originalValue": "32px",
+      "name": "size_text_3xl"
+    },
+    "size_text_2xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "24px",
+      "originalValue": "24px",
+      "name": "size_text_2xl"
+    },
+    "size_text_xl": {
+      "type": "number",
+      "category": "font-size",
+      "value": "20px",
+      "originalValue": "20px",
+      "name": "size_text_xl"
+    },
+    "size_text_l": {
+      "type": "number",
+      "category": "font-size",
+      "value": "18px",
+      "originalValue": "18px",
+      "name": "size_text_l"
+    },
+    "size_text_m": {
+      "type": "number",
+      "category": "font-size",
+      "value": "16px",
+      "originalValue": "16px",
+      "name": "size_text_m"
+    },
+    "size_text_s": {
+      "type": "number",
+      "category": "font-size",
+      "value": "14px",
+      "originalValue": "14px",
+      "name": "size_text_s"
+    },
+    "size_text_xs": {
+      "type": "number",
+      "category": "font-size",
+      "value": "12px",
+      "originalValue": "12px",
+      "name": "size_text_xs"
+    },
+    "color_base_base": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "#ffffff",
+      "name": "color_base_base"
+    },
+    "color_base_essential": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(0, 0, 0)",
+      "originalValue": "#000000",
+      "name": "color_base_essential"
+    },
+    "color_base_project": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(82, 41, 21)",
+      "originalValue": "#522915",
+      "name": "color_base_project"
+    },
+    "color_base_success": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(0, 152, 95)",
+      "originalValue": "#00985f",
+      "name": "color_base_success"
+    },
+    "color_base_alert": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(255, 51, 51)",
+      "originalValue": "#ff3333",
+      "name": "color_base_alert"
+    },
+    "color_base_warning": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(255, 153, 0)",
+      "originalValue": "#ff9900",
+      "name": "color_base_warning"
+    },
+    "color_base_info": {
+      "type": "color",
+      "category": "color",
+      "value": "rgb(3, 169, 244)",
+      "originalValue": "#03a9f4",
+      "name": "color_base_info"
+    }
+  }
+}

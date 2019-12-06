@@ -1,0 +1,17 @@
+#
+# LINE HEIGHT
+# Use these tokens to set line-height.
+#
+
+props:
+  line_height_text_l:
+    value: "32px"
+  line_height_text_m:
+    value: "24px"
+  line_height_text_s:
+    value: "22px"
+  line_height_text_xs:
+    value: "20px"
+global:
+  type: number
+  category: line-height

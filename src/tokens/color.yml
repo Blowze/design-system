@@ -1,0 +1,29 @@
+#
+# COLOR TOKENS
+# Use these tokens to set a color.
+# For reference, see http://hslpicker.com/
+#
+# To make things a little simpler for your team,
+# utilize both global & local tokens for colors.
+#
+
+props:
+  color_base_base:
+    value: "#ffffff"
+  color_base_essential:
+    value: "#000000"
+  color_base_project:
+    value: "#522915"
+  color_base_success:
+    value: "#00985f"
+  color_base_alert:
+    value: "#ff3333"
+  color_base_warning:
+    value: "#ff9900"
+  color_base_info:
+    value: "#03a9f4"
+
+
+global:
+  type: color
+  category: color

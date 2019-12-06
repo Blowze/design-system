@@ -1,0 +1,121 @@
+@import "../assets/tokens/tokens.scss";
+
+$line-heights: (
+        xs: $line-height-text-xs,
+        s: $line-height-text-s,
+        m: $line-height-text-m,
+        l: $line-height-text-l
+);
+$sizes: (
+        xs: $size-text-xs,
+        s: $size-text-s,
+        m: $size-text-m,
+        l: $size-text-l,
+        xl: $size-text-xl,
+        2xl: $size-text-2xl,
+        3xl: $size-text-3xl,
+        4xl: $size-text-4xl
+);
+$types: (
+        p: 0 0 14px,
+        h3: 32px 0 16px,
+        h2: 32px 0 16px,
+        h1: 48px 0 32px,
+);
+$status-colors: (
+        project: $color-base-project,
+        success: $color-base-success,
+        alert: $color-base-alert,
+        warning: $color-base-warning,
+        info: $color-base-info
+);
+
+.text{
+    &_line-height{
+        @each $key, $line-height in $line-heights {
+            $index: index($line-heights, $line-height);
+            &_#{$key}{
+                line-height: $line-height;
+            }
+        }
+    }
+    &_size{
+        @each $key, $size in $sizes {
+            $index: index($sizes, $size);
+            &_#{$key}{
+                font-size: $size;
+                line-height: map_get($line-heights, 'm');
+            }
+        }
+    }
+    &_type{
+        @each $key, $type in $types {
+            $index: index($types, $type);
+            &_#{$key}{
+                margin: $type;
+            }
+        }
+    }
+    &_view{
+        @each $key, $status-color in $status-colors {
+            $index: index($status-colors, $status-color);
+            &_#{$key}{
+                color: $status-color;
+            }
+        }
+    }
+
+    &_align{
+        &_left{
+            text-align: left;
+        }
+        &_center{
+            text-align: center;
+        }
+        &_right{
+            text-align: right;
+        }
+    }
+    &_decoration{
+        &_underline {
+            text-decoration: underline;
+        }
+    }
+    &_display{
+        &_block {
+            display: block;
+        }
+        &_inline-block {
+            display: inline-block;
+        }
+    }
+   
+    
+    &_style{
+        &_italic{
+            font-style: italic;
+        }
+
+    }
+    &_transform{
+        &_uppercase {
+            text-transform: uppercase;
+        }
+    }
+    
+    &_weight{
+        &_bold{
+            font-weight: $weight-text-bold;
+        }
+        &_regular {
+            font-weight: $weight-text-regular;
+        }
+        &_light{
+            font-weight: $weight-text-light;
+        }
+        &_thin {
+            font-weight: $weight-text-thin;
+        }
+    }
+
+}

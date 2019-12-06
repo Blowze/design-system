@@ -1,0 +1,20 @@
+#
+# FONT TOKENS
+# Use these tokens to set font-weight and font-family.
+#
+
+props:
+  font_default:
+    value: "'Open Sans', sans-serif;"
+  weight_text_bold:
+    value: "700"
+  weight_text_regular:
+    value: "400"
+  weight_text_light:
+    value: "300"
+  weight_text_thin:
+    value: "100"
+
+global:
+  type: weight
+  category: font
