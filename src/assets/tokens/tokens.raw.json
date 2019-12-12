@@ -168,6 +168,34 @@
       "value": "rgb(3, 169, 244)",
       "originalValue": "#03a9f4",
       "name": "color_base_info"
+    },
+    "breakpoints_xs": {
+      "type": "number",
+      "category": "breakpoints",
+      "value": "599px",
+      "originalValue": "599px",
+      "name": "breakpoints_xs"
+    },
+    "breakpoints_sm": {
+      "type": "number",
+      "category": "breakpoints",
+      "value": "959px",
+      "originalValue": "959px",
+      "name": "breakpoints_sm"
+    },
+    "breakpoints_md": {
+      "type": "number",
+      "category": "breakpoints",
+      "value": "1263px",
+      "originalValue": "1263px",
+      "name": "breakpoints_md"
+    },
+    "breakpoints_lg": {
+      "type": "number",
+      "category": "breakpoints",
+      "value": "1903px",
+      "originalValue": "1903px",
+      "name": "breakpoints_lg"
     }
   }
 }

@@ -1,0 +1,18 @@
+#
+# breakpoint TOKENS
+# Use these tokens to set a font-size.
+#
+
+props:
+  breakpoints_xs:
+    value: "599px"
+  breakpoints_sm:
+    value: "959px"
+  breakpoints_md:
+    value: "1263px"
+  breakpoints_lg:
+    value: "1903px"
+
+global:
+  type: number
+  category: breakpoints

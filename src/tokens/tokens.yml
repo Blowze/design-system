@@ -7,6 +7,7 @@ imports:
   - ./line-height.yml
   - ./font-size.yml
   - ./color.yml
+  - ./breakpoint.yml
 
 global:
   type: global

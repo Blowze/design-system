@@ -1,7 +1,6 @@
 <template>
   <div class="index">
-    <div class="text text_size_4xl">bla</div>
-    <Icon size="m"  name="like"></Icon>
+    <v-btn color="primary">bla</v-btn>
   </div>
 </template>
 

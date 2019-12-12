@@ -1,8 +1,11 @@
-const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+// vue.config.js
+
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
+
 module.exports = {
-    configureWebpack: {
-      plugins: [
-        new SpriteLoaderPlugin()
-      ]
-    }
-  }
+  configureWebpack: {
+    plugins: [
+      new VuetifyLoaderPlugin()
+    ],
+  },
+}
