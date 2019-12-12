@@ -1,7 +1,7 @@
 <template>
     <div class="colors">
         <div v-for="(prop, index) in tokens" :key="index" class="color" :class="prop.category"
-            v-if="prop.type === 'color'">
+            v-if="prop.category === 'color'">
             <div class="color__color" :style="{ backgroundColor: prop.value }" />
             <h4 class="text">{{prop.name.replace(/_/g, " ").replace(/color/g, "")}}</h4>
             <div class="color__item text text_size_xs">

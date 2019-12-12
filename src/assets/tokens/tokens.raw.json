@@ -121,51 +121,51 @@
       "name": "size_text_xs"
     },
     "color_base_base": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(255, 255, 255)",
+      "value": "#ffffff",
       "originalValue": "#ffffff",
       "name": "color_base_base"
     },
     "color_base_essential": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(0, 0, 0)",
+      "value": "#000000",
       "originalValue": "#000000",
       "name": "color_base_essential"
     },
     "color_base_project": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(82, 41, 21)",
+      "value": "#522915",
       "originalValue": "#522915",
       "name": "color_base_project"
     },
     "color_base_success": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(0, 152, 95)",
+      "value": "#00985f",
       "originalValue": "#00985f",
       "name": "color_base_success"
     },
     "color_base_alert": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(255, 51, 51)",
+      "value": "#ff3333",
       "originalValue": "#ff3333",
       "name": "color_base_alert"
     },
     "color_base_warning": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(255, 153, 0)",
+      "value": "#ff9900",
       "originalValue": "#ff9900",
       "name": "color_base_warning"
     },
     "color_base_info": {
-      "type": "color",
+      "type": "number",
       "category": "color",
-      "value": "rgb(3, 169, 244)",
+      "value": "#03a9f4",
       "originalValue": "#03a9f4",
       "name": "color_base_info"
     },

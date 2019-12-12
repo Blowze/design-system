@@ -25,5 +25,5 @@ props:
 
 
 global:
-  type: color
+  type: number
   category: color

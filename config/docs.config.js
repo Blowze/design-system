@@ -40,8 +40,7 @@ module.exports = {
     ],
     require: [
         path.join(__dirname, "../docs/docs.styles.scss"),
-        path.join(__dirname, '../docs/global.requires.js'),
         path.join(__dirname, "../src/styles/_typography.scss"),
-
-    ]
+    ],
+    renderRootJsx: path.join(__dirname, './styleguide.root.js'),
 }
