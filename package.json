@@ -17,6 +17,7 @@
   "author": "585",
   "dependencies": {
     "core-js": "^3.3.2",
+    "svgo-loader": "^2.2.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {

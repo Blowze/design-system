@@ -5,7 +5,14 @@ module.exports = {
         module: {
             rules: [  {
                 test: /\.svg$/,
-                loader: 'html-loader'
+                use: [
+                    {
+                        loader: 'html-loader',
+                    },
+                    {
+                        loader: 'svgo-loader'
+                    }
+                ]
             }]
         }
     },
@@ -14,6 +21,5 @@ module.exports = {
         config.module
           .rule('svg')
           .test(() => false)
-          .use('file-loader')
       }
 }
