@@ -1,11 +1,19 @@
 // vue.config.js
-
-const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
-
 module.exports = {
-  configureWebpack: {
-    plugins: [
-      new VuetifyLoaderPlugin()
-    ],
-  },
+    filenameHashing: false,
+    configureWebpack: {
+        module: {
+            rules: [  {
+                test: /\.svg$/,
+                loader: 'html-loader'
+            }]
+        }
+    },
+    // Решаем проблему обработки svg в Vue cli
+    chainWebpack: config => {
+        config.module
+          .rule('svg')
+          .test(() => false)
+          .use('file-loader')
+      }
 }

@@ -105,7 +105,11 @@ div[class^="rsg--sidebar"] {
         }
     }
 }
-
+// Fixes a few layout bugs with CodeMirror
+.CodeMirror-scroll.CodeMirror-scroll {
+    overflow: hidden !important;
+  }
+  
 // Sidebar logo
 div[class^="rsg--logo"] {
     padding: $docs-space-m;
