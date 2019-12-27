@@ -1,7 +1,12 @@
 .DS_Store
+.eslintcache
+dist/assets/
+dist/app.css
+dist/system.css
+dist/index.html
+dist/docs/
 node_modules
 styleguide
-dist
 
 # local env files
 .env.local
