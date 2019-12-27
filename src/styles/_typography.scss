@@ -1,5 +1,7 @@
 @import "../assets/tokens/tokens.scss";
 
+$text-font-family: $font-default !default;
+
 $line-heights: (
         xs: $line-height-text-xs,
         s: $line-height-text-s,
