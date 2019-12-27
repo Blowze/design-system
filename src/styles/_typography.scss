@@ -46,7 +46,6 @@ $status-colors: (
             $index: index($sizes, $size);
             &_#{$key}{
                 font-size: $size;
-                line-height: map_get($line-heights, 'm');
             }
         }
     }
