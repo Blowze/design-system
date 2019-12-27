@@ -26,15 +26,9 @@
 
 <script>
   import '../src/styles/_index.scss'
-  import Icon from './elements/Icon/Icon.vue'
-  import Heading from './elements/Heading.vue'
-
+  
   export default {
     name: "app",
-    components: {
-      Icon: Icon,
-      Heading: Heading
-    }
   }
 </script>
 

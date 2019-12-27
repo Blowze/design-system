@@ -78,7 +78,7 @@ export default {
   },
 
   watch: {
-    breakPoint(val) {
+    breakPoint() {
       this.classes = [...this.staticClasses];
       this.testProps();
     }
