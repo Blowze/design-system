@@ -8,10 +8,10 @@
     "url": "git+https://github.com/yashunin/585-design-system.git"
   },
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build:docs": "vue-styleguidist build",
-    "start:docs": "vue-styleguidist server --open --config ./config/docs.config.js",
+    "build": "node ./build/build-system.js",
+    "start": "vue-cli-service serve",
+    "styleguidist": "vue-styleguidist server --open --config ./config/docs.config.js",
+    "styleguidist:build": "vue-styleguidist build",
     "theo": "theo ./src/tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/tokens",
     "lint": "vue-cli-service lint"
   },

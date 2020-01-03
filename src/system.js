@@ -1,6 +1,6 @@
 const contexts = [
-    require.context("@/elements/", true, /\.vue$/),
-    require.context("@/patterns/", true, /\.vue$/)
+    require.context("./elements/", true, /\.vue$/),
+    require.context("./patterns/", true, /\.vue$/)
   ]
   
   // Define components
