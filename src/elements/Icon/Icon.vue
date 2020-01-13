@@ -8,7 +8,7 @@
    *  Описание компонента
    */
   export default {
-    name: "Icon",
+    name: "flxv-icon",
     status: "review",
     release: "1.0.0",
     props: {
@@ -109,23 +109,23 @@
 <docs>
   ```jsx
   <div>
-    <Icon name="favorite" fill="#000000" size="xs" />
-    <Icon name="favorite" fill="#522915" size="s" />
-    <Icon name="favorite" fill="#00985f" size="m" />
-    <Icon name="favorite" fill="#ff3333" size="l" />
-    <Icon name="favorite" fill="#ff9900" size="xl" />
-    <Icon name="favorite" fill="#03a9f4" size="xxl" />
-    <Icon name="favorite" fill="#63003b" size="xxxl" />
+    <flxv-icon name="favorite" fill="#000000" size="xs" />
+    <flxv-icon name="favorite" fill="#522915" size="s" />
+    <flxv-icon name="favorite" fill="#00985f" size="m" />
+    <flxv-icon name="favorite" fill="#ff3333" size="l" />
+    <flxv-icon name="favorite" fill="#ff9900" size="xl" />
+    <flxv-icon name="favorite" fill="#03a9f4" size="xxl" />
+    <flxv-icon name="favorite" fill="#63003b" size="xxxl" />
   </div>
   <hr />
   <div>
-    <Icon name="shopping_basket" fill="#000000" stroke="#000000" size="xs" />
-    <Icon name="shopping_basket" fill="#522915" stroke="#522915" size="s" />
-    <Icon name="shopping_basket" fill="#00985f" stroke="#00985f" size="m" />
-    <Icon name="shopping_basket" fill="#ff3333" stroke="#ff3333" size="l" />
-    <Icon name="shopping_basket" fill="#ff9900" stroke="#ff9900" size="xl" />
-    <Icon name="shopping_basket" fill="#03a9f4" stroke="#03a9f4" size="xxl" />
-    <Icon name="shopping_basket" fill="#63003b" stroke="#63003b" size="xxxl" />
+    <flxv-icon name="shopping_basket" fill="#000000" stroke="#000000" size="xs" />
+    <flxv-icon name="shopping_basket" fill="#522915" stroke="#522915" size="s" />
+    <flxv-icon name="shopping_basket" fill="#00985f" stroke="#00985f" size="m" />
+    <flxv-icon name="shopping_basket" fill="#ff3333" stroke="#ff3333" size="l" />
+    <flxv-icon name="shopping_basket" fill="#ff9900" stroke="#ff9900" size="xl" />
+    <flxv-icon name="shopping_basket" fill="#03a9f4" stroke="#03a9f4" size="xxl" />
+    <flxv-icon name="shopping_basket" fill="#63003b" stroke="#63003b" size="xxxl" />
   </div>
   ```
 </docs>
