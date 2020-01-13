@@ -1,33 +1,45 @@
 {
   "name": "585designsystem",
-  "version": "0.0.1",
+  "version": "0.0.11-6",
   "description": "Viritsa Components Library",
-  "main": "index.js",
+  "main": "dist/system/system.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yashunin/585-design-system.git"
   },
   "scripts": {
-    "build:docs": "vue-styleguidist build",
-    "start:docs": "vue-styleguidist server"
+    "build": "node ./build/build-system.js",
+    "start": "vue-cli-service serve",
+    "styleguidist": "vue-styleguidist server --open --config ./config/docs.config.js",
+    "styleguidist:build": "vue-styleguidist build",
+    "theo": "theo ./src/tokens/tokens.yml --transform web --format map.scss,scss,raw.json,json --dest ./src/assets/tokens",
+    "lint": "vue-cli-service lint"
   },
   "author": "585",
   "dependencies": {
     "core-js": "^3.3.2",
-    "vue": "^2.6.10"
+    "svgo-loader": "^2.2.1",
+    "vue": "^2.6.10",
+    "webpack": "^4.41.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "babel-eslint": "^10.0.3",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.13.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "1.23.7",
     "sass-loader": "^8.0.0",
+    "theo": "^8.1.4",
     "vue-cli-plugin-styleguidist": "^3.26.0",
-    "vue-styleguidist": "^3.26.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-styleguidist": "^3.26.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-merge": "^4.1.4"
   },
   "eslintConfig": {
     "root": true,
@@ -38,7 +50,10 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "vue/no-use-v-if-with-v-for": "off",
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

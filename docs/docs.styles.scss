@@ -1,0 +1,379 @@
+/**
+ * These are style overrides for Vue Styleguidist
+ * (the odd formatting hence most of the classes are dynamic)
+ */
+
+@import "../src/assets/tokens/tokens.scss";
+
+/* LOCAL DESIGN TOKENS
+--------------------------------------------- */
+
+$docs-project: #522915;
+$docs-project-two: #3D261B;
+$docs-project-three: #351607;
+$docs-project-four: #A9694A;
+$docs-project-five: #A97A64;
+
+$docs-grey: #ccc;
+
+$radius-default: 4px;
+
+$docs-space-m: 24px;
+$docs-space-xs: 20px;
+$docs-space-s: 16px;
+$docs-space-l: 48px;
+$docs-space-xl: 64px;
+
+
+
+
+
+div.rsg--root-1 {
+    background: $color-base-base;
+}
+
+// Main content
+main[class^="rsg--content"] {
+    display: block;
+    /* IE11 fix */
+    padding: $docs-space-s $docs-space-xl;
+}
+
+/* SIDEBAR
+--------------------------------------------- */
+// Sets sidebar background
+div[class^="rsg--sidebar"] {
+    background: $color-base-project;
+    border: 0;
+
+    li[class^="rsg--item"] {
+        margin: 0;
+        display: block;
+    }
+
+    // Sidebar first level links
+    a[class^="rsg--link"] {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding: 4px 24px;
+        font-weight: 600;
+        color: $color-base-base;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover {
+            color: mix($color-base-project, $color-base-base, 50%);
+        }
+
+        &:active {
+            color: mix($color-base-project, $color-base-base, 25%);
+        }
+    }
+
+    // Sidebar list
+    ul[class^="rsg--list"] {
+        padding-left: 0;
+    }
+
+    // Sidebar active link
+    .vueds-active {
+        ul[class^="rsg--list"] {
+            display: block;
+        }
+
+        &>a,
+        &>a:hover {
+            color: mix($color-base-project, $color-base-base, 50%);
+
+        }
+    }
+
+    // Sidebar list
+    ul[class^="rsg--list"] {
+        padding-left: 0;
+
+        ul {
+            padding-left: $docs-space-s;
+            line-height: $line-height-text-s;
+        }
+
+        a[class*="rsg--link"] {
+            font-size: $size-text-s, ;
+            font-weight: $weight-text-regular;
+        }
+    }
+}
+// Fixes a few layout bugs with CodeMirror
+.CodeMirror-scroll.CodeMirror-scroll {
+    overflow: hidden !important;
+  }
+  
+// Sidebar logo
+div[class^="rsg--logo"] {
+    padding: $docs-space-m;
+    border-bottom: 1px solid mix($color-base-project, $color-base-base, 95%);
+
+    h1 {
+        color: $color-base-base;
+        font-weight: $weight-text-light;
+    }
+}
+
+// Sidebar search
+div[class^="rsg--search"] input {
+    color: $color-base-base;
+    height: 44px;
+    border: 1px solid transparent;
+    background: mix($color-base-project, $color-base-base, 95%);
+
+    &:focus {
+        border: 1px solid $color-base-project;
+
+        &::-webkit-textfield-decoration-container {
+            display: none !important;
+        }
+
+        &::-webkit-contacts-auto-fill-button {
+            display: none !important;
+        }
+    }
+
+    &::-webkit-input-placeholder {
+        color: mix($color-base-base, $color-base-project, 20%);
+    }
+
+    &:-ms-input-placeholder {
+        color: mix($color-base-base, $color-base-project, 20%);
+
+    }
+
+    &::-moz-placeholder {
+        color: mix($color-base-base, $color-base-project, 20%);
+
+        opacity: 1;
+    }
+}
+
+// Sidebar version
+p[class^="rsg--version"] {
+    padding: 4px 8px 5px;
+    margin: 8px 0 0;
+    color: $color-base-base;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    border: 1px solid mix($color-base-project, $color-base-base, 2%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+
+
+// Main headings
+// (includes h2 as well since in component views that’s the first heading)
+div[class^="rsg--wrapper"]>h1[class^="rsg--heading"],
+div[class^="rsg--wrapper"]>h2[class^="rsg--heading"] {
+    display: block;
+    border: 0;
+    border: 0;
+    line-height: 1.3;
+    padding: 64px 64px;
+    width: calc(100% + 128px);
+    margin: -16px -64px 0 -64px;
+    background: rgba($docs-project, 0.1);
+    font-size: 48px;
+
+    a:hover {
+        text-decoration: none;
+        cursor: default;
+    }
+}
+
+// Heading, level 2
+h2[class^="rsg--heading"] {
+    border-bottom: 1px solid $docs-grey;
+    padding-bottom: $docs-space-s;
+    margin: $docs-space-l 0 $docs-space-l;
+    font-size: $size-text-4xl;
+    line-height: $line-height-text-l, ;
+    font-weight: $weight-text-regular;
+    letter-spacing: -0.5px;
+    width: 100%;
+
+    a {
+        color: $color-base-project;
+    }
+}
+
+// Display rsg--roots as flex
+main section section>div>div[class^="rsg--root"] {
+    display: flex;
+    flex-direction: column;
+}
+
+// Code tabs and table
+div[class^="rsg--tabs"],
+table[class^="rsg--table"] {
+    margin-bottom: $docs-space-s;
+    overflow-x: auto;
+}
+/* CODE & COMPONENT PREVIEWS
+--------------------------------------------- */
+
+// Previews of the components
+div[class^="rsg--preview"] {
+    padding: $docs-space-l / 1.2;
+    background-color: rgba($docs-grey, 0.3);
+    border: 1px solid rgba($docs-grey, 0.8);
+    box-shadow: inset 0 0 $docs-space-xs rgba($color-base-info, 0.05);
+    margin: $docs-space-s 0 0;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    border-top-left-radius: $radius-default;
+    border-top-right-radius: $radius-default;
+  }
+  
+  // If you edit the component categories, you have to edit
+  // these to match as well.
+  div[data-preview="Elements"],
+  div[data-preview="Patterns"],
+  div[data-preview="Templates"] {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    border: 0;
+  
+    // This hides code previews from the above examples
+    & + div + div[class^="rsg--tab"] {
+      display: none !important;
+    }
+  }
+  
+  // Clearfix to take care of floated content inside previews
+  div[data-preview]:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+thead[class^="rsg--tableHead"] {
+    border: 0;
+}
+
+// Codemirror and markdown code blocks
+pre[class^="rsg--pre"],
+.vueds-html.cm-s-night.CodeMirror,
+.react-codemirror2 .CodeMirror.CodeMirror {
+    background: mix($color-base-project, #000, 10%);
+    border-bottom-left-radius: $radius-default;
+    border-bottom-right-radius: $radius-default;
+    box-sizing: border-box;
+    font-size: $size-text-s;
+    min-height: $docs-space-s / 1.5;
+    margin-bottom: $docs-space-m;
+    padding: $docs-space-m;
+
+    code {
+        color: $color-base-base;
+    }
+}
+/* TABLES
+--------------------------------------------- */
+
+// Global tr setting so that vueds custom components use this as well
+tr {
+  transition: background-color 0.1s ease;
+  &:hover {
+    background: rgba($color-base-project, 0.03);
+  }
+}
+
+table[class^="rsg--table"] {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  th {
+    padding: $docs-space-s $docs-space-l $docs-space-s $docs-space-s;
+    font-size: $size-text-s;
+    font-weight: $weight-text-bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    background: $docs-project;
+    color: tint($color-base-info, 10%);
+    text-align: left;
+  }
+  th[class^="rsg--cellHeading"],
+  td {
+    padding: $docs-space-s $docs-space-l $docs-space-s $docs-space-s;
+    background: transparent;
+  }
+  td {
+    font-size: $size-text-s;
+    padding: $docs-space-s $docs-space-l $docs-space-s $docs-space-s;
+    &:first-child {
+      font-weight: $weight-text-bold;
+      white-space: nowrap;
+    }
+  }
+  tr {
+    border-bottom: 1px solid rgba($docs-grey, 0.5);
+  }
+  tbody tr:last-child {
+    border-bottom: 0;
+  }
+}
+
+thead[class^="rsg--thead"] {
+  th:first-child {
+    border-top-left-radius: $radius-default;
+    border-bottom-left-radius: $radius-default;
+  }
+  th:last-child {
+    border-top-right-radius: $radius-default;
+    border-bottom-right-radius: $radius-default;
+  }
+}
+// Code highlighting elsewhere
+span[class^="rsg--type"],
+code[class^="rsg--code"] {
+  color: $docs-grey;
+}
+/* COMPONENT STATUS LABELS
+--------------------------------------------- */
+
+// Here we’re setting a custom order for Styleguidist’s pieces
+header[class^="rsg--header"] {
+    order: 2;
+}
+
+div[class^="rsg--docs"],
+article[class^="rsg--root"],
+button[class^="rsg--button"] {
+    order: 3;
+}
+
+div[class^="rsg--root"] div[class^="rsg--tabs"] {
+    order: 4;
+}
+
+/* HIDDEN STYLEGUIDIST FUNCTIONALITY
+--------------------------------------------- */
+
+div[class^="rsg--tabButtons"],
+div[class^="rsg--controls"],
+div[class^="rsg--pathline"],
+footer[class^="rsg--footer"],
+div[class^="rsg--toolbar"] {
+    display: none !important;
+}
+
+// Hide  placeholder sections
+ul a[href*="/#/Them/Color"] {
+    display: none !important;
+}

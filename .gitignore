@@ -1,4 +1,10 @@
 .DS_Store
+.eslintcache
+dist/assets/
+dist/app.css
+dist/system.css
+dist/index.html
+dist/docs/
 node_modules
 styleguide
 
@@ -19,3 +25,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+dist/js/app.962100ad.js

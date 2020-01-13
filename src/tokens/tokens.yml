@@ -1,0 +1,14 @@
+#
+# GLOBAL: DESIGN TOKENS
+#
+
+imports:
+  - ./font.yml
+  - ./line-height.yml
+  - ./font-size.yml
+  - ./color.yml
+  - ./breakpoint.yml
+
+global:
+  type: global
+  category: all
