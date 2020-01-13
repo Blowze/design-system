@@ -15,7 +15,7 @@ module.exports = {
   mode: 'production',
 
   entry: {
-    main: `./${config.base.src}/index.js`,
+    index: `./${config.base.src}/index.js`,
   },
 
    resolve: {
