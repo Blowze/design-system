@@ -25,7 +25,10 @@ module.exports = {
       vue: 'vue/dist/vue.js' // обеспечивает единое подключеник VUE в проекте
     }
   },
-
+  output: {
+    libraryTarget: 'umd',
+    umdNamedDefine: true
+  },
   module: {
     rules: [
       {
